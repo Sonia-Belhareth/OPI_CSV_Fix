@@ -1,12 +1,12 @@
 print "Starting the script to clean CSV"
 #Opening CVS file as text file
-f = open("2016-10.csv","r")
+f = open("2016-08.csv","r")
 #Reading all lines
 lines = f.readlines()
 #Closing file
 f.close()
 #Open the Modified CVS file in write mode
-f1 = open("2016-10_Modified.csv","w")
+f1 = open("Modified2016-08.csv","w")
 #Write the headre to the new CVS
 f1.write(lines[0])
 #Loop on all the lines
